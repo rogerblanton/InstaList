@@ -1,0 +1,15 @@
+{
+  "name": "koa_server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node --harmony server.js --cwd /usr/src/app/.koa",
+    "prestart": "npm install -g koa@0.20.0"
+  },
+  "dependancies": {
+    "koa": ">=0.20.0"
+  },
+  "devDependancies": {
+    "koa": ">=0.20.0"
+  }
+}

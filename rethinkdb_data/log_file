@@ -1,0 +1,403 @@
+2015-04-21T17:35:45.157568893 0.134132s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-04-21T17:35:45.158729000 0.135291s notice: Recursively removing directory /usr/src/app/rethinkdb_data/tmp
+2015-04-21T17:35:45.167493500 0.144056s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-21T17:35:45.223004162 0.199565s notice: Initializing directory /usr/src/app/rethinkdb_data
+2015-04-21T17:35:45.225048994 0.201610s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/usr/src/app/rethinkdb_data' did not already exist or is empty.)
+2015-04-21T17:35:45.225717346 0.202279s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-04-21T17:35:45.263688602 0.240284s notice: Running on Linux 3.13.0-36-generic x86_64
+2015-04-21T17:35:45.265477745 0.242039s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-04-21T17:35:45.310357602 0.286920s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/metadata.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-21T17:35:45.336506111 0.313068s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/metadata.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-21T17:35:45.356197791 0.332760s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-21T17:35:45.364352061 0.340914s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/auth_metadata.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-21T17:35:45.397843451 0.374406s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/auth_metadata.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-21T17:35:45.411427071 0.387989s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-21T17:35:45.461032148 0.437594s info: Automatically using cache size of 243 MB
+2015-04-21T17:35:45.570840941 0.547398s notice: Listening for intracluster connections on port 29015
+2015-04-21T17:35:45.581093674 0.557651s notice: Listening for client driver connections on port 28015
+2015-04-21T17:35:45.581093781 0.557651s notice: Listening for administrative HTTP connections on port 8080
+2015-04-21T17:35:45.663422393 0.639983s notice: Listening on addresses: 127.0.0.1, 172.17.0.31, ::1, fe80::42:acff:fe11:1f%64
+2015-04-21T17:35:45.663494481 0.640055s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-04-21T22:26:47.494338518 0.120476s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-04-21T22:26:47.585661300 0.211793s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-04-21T22:26:47.629315069 0.255475s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-04-21T22:26:47.630309082 0.256441s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-04-21T22:26:47.653673869 0.279807s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-21T22:26:47.771686925 0.397815s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-21T22:26:47.888899205 0.515031s info: Automatically using cache size of 277 MB
+2015-04-21T22:26:47.895237043 0.521369s notice: Listening for intracluster connections on port 29015
+2015-04-21T22:26:47.901994749 0.528127s notice: Listening for client driver connections on port 28015
+2015-04-21T22:26:47.903288005 0.529420s notice: Listening for administrative HTTP connections on port 8080
+2015-04-21T22:26:47.903299429 0.529431s notice: Listening on addresses: 127.0.0.1, ::1
+2015-04-21T22:26:47.903309157 0.529441s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-04-21T22:26:47.903318883 0.529450s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-04-23T17:31:35.815482526 0.122150s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-04-23T17:31:35.883572746 0.190244s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-04-23T17:31:35.924537608 0.231223s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-04-23T17:31:35.925834708 0.232505s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-04-23T17:31:35.950805583 0.257477s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T17:31:36.079535340 0.386206s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T17:31:36.209248092 0.515919s info: Automatically using cache size of 265 MB
+2015-04-23T17:31:36.216705794 0.523376s notice: Listening for intracluster connections on port 29015
+2015-04-23T17:31:36.222916298 0.529587s notice: Listening for client driver connections on port 28015
+2015-04-23T17:31:36.224373221 0.531044s notice: Listening for administrative HTTP connections on port 8080
+2015-04-23T17:31:36.224384884 0.531055s notice: Listening on addresses: 127.0.0.1, ::1
+2015-04-23T17:31:36.224395004 0.531065s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-04-23T17:31:36.224404909 0.531075s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-04-23T20:59:21.689586506 0.208590s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-04-23T20:59:21.804173838 0.323182s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-04-23T20:59:21.848089707 0.367127s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-04-23T20:59:21.850896772 0.369905s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-04-23T20:59:21.874523278 0.393532s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T20:59:22.575851215 1.094860s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T20:59:22.918354221 1.437362s info: Automatically using cache size of 260 MB
+2015-04-23T20:59:23.041692704 1.560704s notice: Listening for intracluster connections on port 29015
+2015-04-23T20:59:23.050207022 1.569211s notice: Listening for client driver connections on port 28015
+2015-04-23T20:59:23.050737490 1.569745s notice: Listening for administrative HTTP connections on port 8080
+2015-04-23T20:59:23.166843226 1.685876s notice: Listening on addresses: 127.0.0.1, 172.17.0.6, ::1, fe80::42:acff:fe11:6%14
+2015-04-23T20:59:23.167427127 1.686460s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-04-23T21:01:49.143336083 147.662344s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/107d799a-6de7-443b-8f47-1ddc5b25db2d.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:01:49.163789781 147.682797s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/107d799a-6de7-443b-8f47-1ddc5b25db2d.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:01:49.239697674 147.758705s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:09:28.054843658 606.573851s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-04-23T21:09:28.055039916 606.574047s notice: Shutting down client connections...
+2015-04-23T21:09:28.055097772 606.574105s notice: All client connections closed.
+2015-04-23T21:09:28.055108761 606.574116s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-04-23T21:09:28.084939377 606.603947s notice: Storage engine shut down.
+2015-04-23T21:09:46.508957271 0.119879s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-04-23T21:09:46.553219868 0.164145s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-04-23T21:09:46.584638101 0.195592s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-04-23T21:09:46.585571860 0.196497s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-04-23T21:09:46.609512506 0.220438s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:09:46.728624230 0.339546s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:09:46.767130179 0.378055s info: Automatically using cache size of 261 MB
+2015-04-23T21:09:46.928179775 0.539101s notice: Listening for intracluster connections on port 29015
+2015-04-23T21:09:46.932455985 0.543382s notice: Listening for client driver connections on port 28015
+2015-04-23T21:09:46.933953415 0.544876s notice: Listening for administrative HTTP connections on port 8080
+2015-04-23T21:09:46.942640644 0.553565s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:09:48.050969570 1.661895s notice: Listening on addresses: 127.0.0.1, 172.17.0.7, ::1, fe80::42:acff:fe11:7%16
+2015-04-23T21:09:48.050997700 1.661922s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-04-23T21:11:14.595632836 88.206558s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-04-23T21:11:14.597177671 88.208102s notice: Shutting down client connections...
+2015-04-23T21:11:14.597934721 88.208860s notice: All client connections closed.
+2015-04-23T21:11:14.598239169 88.209164s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-04-23T21:11:14.652536389 88.263462s notice: Storage engine shut down.
+2015-04-23T21:14:48.865930909 0.205189s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-04-23T21:14:48.918669480 0.257926s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-04-23T21:14:48.992332839 0.331585s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-04-23T21:14:48.992332947 0.331585s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-04-23T21:14:49.032386741 0.371639s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:14:49.101316873 0.440577s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:14:49.150348835 0.489605s info: Automatically using cache size of 391 MB
+2015-04-23T21:14:49.252849340 0.592102s notice: Listening for intracluster connections on port 29015
+2015-04-23T21:14:49.262472410 0.601725s notice: Listening for client driver connections on port 28015
+2015-04-23T21:14:49.262472529 0.601725s notice: Listening for administrative HTTP connections on port 8080
+2015-04-23T21:14:49.272104373 0.611361s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:14:49.345567241 0.684825s notice: Listening on addresses: 127.0.0.1, 172.17.0.1, ::1, fe80::42:acff:fe11:1%4
+2015-04-23T21:14:49.345658967 0.684916s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-04-23T21:27:29.402837081 760.742093s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_534840fd-7e6e-4c05-823c-7f1606563a5d.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.425542051 760.764799s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_27d9a32d-d781-4e95-a589-7c6e6c2c9d8b.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.442175902 760.781433s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_ce9439af-b2c7-46ef-85fb-827824f70bb9.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.443624586 760.782881s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_48085e2c-7ac5-4737-8171-ed3208ba7442.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.443678229 760.782934s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_1fbd8142-5855-48ae-8522-5096bbcb8a89.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.443687110 760.782943s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_8bdc7ae8-ad50-4471-ae2f-8e76ccce61e8.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.443720214 760.782977s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_5ba08f0b-972d-4973-8299-0f8a9bb2a02b.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.445080441 760.784337s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_0fe2ea25-c7d1-405f-800a-021d066ac529.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.529622343 760.868879s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_ce9439af-b2c7-46ef-85fb-827824f70bb9.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.529806999 760.869063s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_534840fd-7e6e-4c05-823c-7f1606563a5d.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.530015603 760.869272s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_8bdc7ae8-ad50-4471-ae2f-8e76ccce61e8.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.530047962 760.869304s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_5ba08f0b-972d-4973-8299-0f8a9bb2a02b.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.563074292 760.902331s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_0fe2ea25-c7d1-405f-800a-021d066ac529.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.564330000 760.903587s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_1fbd8142-5855-48ae-8522-5096bbcb8a89.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.589714265 760.928971s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_27d9a32d-d781-4e95-a589-7c6e6c2c9d8b.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:27:29.589727166 760.928983s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_48085e2c-7ac5-4737-8171-ed3208ba7442.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T21:52:41.790852466 2273.130109s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-04-23T21:52:41.801711416 2273.140968s notice: Shutting down client connections...
+2015-04-23T21:52:41.801893445 2273.141149s notice: All client connections closed.
+2015-04-23T21:52:41.801903490 2273.141159s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-04-23T21:52:41.902448289 2273.241701s notice: Storage engine shut down.
+2015-04-23T22:28:09.317920833 0.223139s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-04-23T22:28:09.397304096 0.302522s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-04-23T22:28:09.463254192 0.368504s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-04-23T22:28:09.465911606 0.371129s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-04-23T22:28:09.504014236 0.409233s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T22:28:09.755094828 0.660315s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T22:28:10.125560407 1.030778s info: Automatically using cache size of 337 MB
+2015-04-23T22:28:10.305700238 1.210918s notice: Listening for intracluster connections on port 29015
+2015-04-23T22:28:10.344416142 1.249635s notice: Listening for client driver connections on port 28015
+2015-04-23T22:28:10.358437139 1.263655s notice: Listening for administrative HTTP connections on port 8080
+2015-04-23T22:28:10.416808316 1.322026s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T22:28:10.456123240 1.361341s notice: Listening on addresses: 127.0.0.1, 172.17.0.10, ::1, fe80::42:acff:fe11:a%22
+2015-04-23T22:28:10.458094944 1.363312s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-04-23T22:33:03.257054569 294.162272s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/08ce03be-5472-49de-86ad-f2a6b6a81449.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T22:33:03.280908536 294.186126s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/08ce03be-5472-49de-86ad-f2a6b6a81449.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-23T22:33:03.374130928 294.279349s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/08ce03be-5472-49de-86ad-f2a6b6a81449" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T04:39:46.475276835 22297.380494s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-04-24T04:39:46.475456028 22297.380673s notice: Shutting down client connections...
+2015-04-24T04:39:46.476491634 22297.381770s notice: All client connections closed.
+2015-04-24T04:39:46.476564881 22297.381782s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-04-24T04:39:46.679186840 22297.584404s notice: Storage engine shut down.
+2015-04-24T04:48:01.803561521 0.217398s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-04-24T04:48:01.873273430 0.287109s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-04-24T04:48:01.932697756 0.346565s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-04-24T04:48:01.935084571 0.348921s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-04-24T04:48:01.971686646 0.385524s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T04:48:02.136911385 0.550747s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T04:48:02.285438610 0.699275s info: Automatically using cache size of 364 MB
+2015-04-24T04:48:02.405285388 0.820234s notice: Listening for intracluster connections on port 29015
+2015-04-24T04:48:02.459286608 0.873123s notice: Listening for client driver connections on port 28015
+2015-04-24T04:48:02.460576696 0.874412s notice: Listening for administrative HTTP connections on port 8080
+2015-04-24T04:48:02.460668004 0.874503s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T04:48:02.471269286 0.885105s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/08ce03be-5472-49de-86ad-f2a6b6a81449" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T04:48:02.557699246 0.971535s notice: Listening on addresses: 127.0.0.1, 172.17.0.6, ::1, fe80::42:acff:fe11:6%14
+2015-04-24T04:48:02.557919108 0.971754s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-04-24T04:51:52.481713344 230.895558s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-04-24T04:51:52.482543659 230.896381s notice: Shutting down client connections...
+2015-04-24T04:51:52.482964446 230.896800s notice: All client connections closed.
+2015-04-24T04:51:52.482977853 230.896813s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-04-24T04:51:52.549700798 230.963536s notice: Storage engine shut down.
+2015-04-24T04:55:07.463027854 0.143511s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-04-24T04:55:07.523456857 0.203939s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-04-24T04:55:07.579257970 0.259770s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-04-24T04:55:07.580172489 0.260655s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-04-24T04:55:07.612184706 0.292668s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T04:55:07.759141572 0.439625s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T04:55:07.866584528 0.547067s info: Automatically using cache size of 389 MB
+2015-04-24T04:55:09.136026728 1.816510s notice: Listening for intracluster connections on port 29015
+2015-04-24T04:55:09.176281075 1.856764s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T04:55:09.178309437 1.858792s notice: Listening for client driver connections on port 28015
+2015-04-24T04:55:09.179172201 1.859654s notice: Listening for administrative HTTP connections on port 8080
+2015-04-24T04:55:09.185559022 1.866041s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/08ce03be-5472-49de-86ad-f2a6b6a81449" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T04:55:09.266974665 1.947534s notice: Listening on addresses: 127.0.0.1, 172.17.0.1, ::1, fe80::42:acff:fe11:1%4
+2015-04-24T04:55:09.268005541 1.948488s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-04-24T04:56:02.823941122 55.504424s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-04-24T04:56:02.825049813 55.505532s notice: Shutting down client connections...
+2015-04-24T04:56:02.825626666 55.506109s notice: All client connections closed.
+2015-04-24T04:56:02.825845291 55.506327s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-04-24T04:56:02.883854615 55.564337s notice: Storage engine shut down.
+2015-04-24T16:14:47.060560844 0.203929s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-04-24T16:14:47.209435896 0.352804s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-04-24T16:14:47.288978011 0.432376s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-04-24T16:14:47.290289495 0.433897s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-04-24T16:14:47.328148549 0.471516s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T16:14:47.493517806 0.636886s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T16:14:47.645537931 0.788906s info: Automatically using cache size of 387 MB
+2015-04-24T16:14:47.765905872 0.909274s notice: Listening for intracluster connections on port 29015
+2015-04-24T16:14:47.827906754 0.971275s notice: Listening for client driver connections on port 28015
+2015-04-24T16:14:47.829919571 0.973287s notice: Listening for administrative HTTP connections on port 8080
+2015-04-24T16:14:47.829928218 0.973295s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T16:14:47.939244677 1.082613s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/08ce03be-5472-49de-86ad-f2a6b6a81449" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T16:14:47.947638648 1.091007s notice: Listening on addresses: 127.0.0.1, 172.17.0.1, ::1, fe80::42:acff:fe11:1%4
+2015-04-24T16:14:47.947648268 1.091015s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-04-24T17:48:10.496149198 5603.639519s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/abd42f2c-b9bc-47f5-bc96-59e88441f1cb.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T17:48:10.546290869 5603.689661s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/abd42f2c-b9bc-47f5-bc96-59e88441f1cb.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-24T17:48:10.592071349 5603.735439s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/abd42f2c-b9bc-47f5-bc96-59e88441f1cb" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-25T15:04:17.208733460 23523.145607s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-04-25T15:04:17.211493934 23523.148446s notice: Shutting down client connections...
+2015-04-25T15:04:17.212529067 23523.149432s notice: All client connections closed.
+2015-04-25T15:04:17.212595446 23523.149492s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-04-25T15:04:17.658436298 23523.595310s notice: Storage engine shut down.
+2015-04-26T19:12:45.769457798 0.398194s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-04-26T19:12:45.888868515 0.517604s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-04-26T19:12:46.063095507 0.691860s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-04-26T19:12:46.064502196 0.693337s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-04-26T19:12:46.106338677 0.735075s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-26T19:12:50.402703071 5.031439s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-26T19:12:50.598716651 5.227453s info: Automatically using cache size of 386 MB
+2015-04-26T19:12:50.717180375 5.345916s notice: Listening for intracluster connections on port 29015
+2015-04-26T19:12:50.747835126 5.376571s notice: Listening for client driver connections on port 28015
+2015-04-26T19:12:50.760063590 5.388799s notice: Listening for administrative HTTP connections on port 8080
+2015-04-26T19:12:50.760084469 5.388819s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-26T19:12:50.874469392 5.503215s notice: Listening on addresses: 127.0.0.1, 172.17.0.1, ::1, fe80::42:acff:fe11:1%4
+2015-04-26T19:12:50.875085593 5.503848s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-04-26T19:12:50.898929523 5.527665s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/08ce03be-5472-49de-86ad-f2a6b6a81449" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-26T19:12:50.932515404 5.561250s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/abd42f2c-b9bc-47f5-bc96-59e88441f1cb" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-26T19:41:41.297537175 1735.926273s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-04-26T19:41:41.299308039 1735.928043s notice: Shutting down client connections...
+2015-04-26T19:41:41.299840728 1735.928576s notice: All client connections closed.
+2015-04-26T19:41:41.299851354 1735.928586s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-04-26T19:41:41.415417213 1736.044153s notice: Storage engine shut down.
+2015-04-30T16:33:42.587157011 0.319044s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-04-30T16:33:42.708183166 0.440070s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-04-30T16:33:42.814581124 0.546619s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-04-30T16:33:42.815636264 0.547523s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-04-30T16:33:42.865725410 0.597612s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-30T16:33:43.161830727 0.893718s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-30T16:33:43.453768931 1.185666s info: Automatically using cache size of 389 MB
+2015-04-30T16:33:43.597047971 1.328934s notice: Listening for intracluster connections on port 29015
+2015-04-30T16:33:43.638740733 1.370627s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-30T16:33:43.640879875 1.372766s notice: Listening for client driver connections on port 28015
+2015-04-30T16:33:43.642707437 1.374594s notice: Listening for administrative HTTP connections on port 8080
+2015-04-30T16:33:43.732974785 1.464861s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/08ce03be-5472-49de-86ad-f2a6b6a81449" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-30T16:33:43.733133759 1.465020s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/abd42f2c-b9bc-47f5-bc96-59e88441f1cb" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-04-30T16:33:43.737154287 1.469041s notice: Listening on addresses: 127.0.0.1, 172.17.0.1, ::1, fe80::42:acff:fe11:1%4
+2015-04-30T16:33:43.737227216 1.469113s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-04-30T21:56:24.278273653 19362.010171s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-04-30T21:56:24.824597153 19362.556497s notice: Shutting down client connections...
+2015-04-30T21:56:24.832768850 19362.564655s notice: All client connections closed.
+2015-04-30T21:56:24.833015624 19362.564902s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-04-30T21:56:25.058341680 19362.790229s notice: Storage engine shut down.
+2015-05-01T22:18:23.568883571 0.167548s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-05-01T22:18:23.660025670 0.258694s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-05-01T22:18:23.692223522 0.290929s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-05-01T22:18:23.694471326 0.293140s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-05-01T22:18:23.724879061 0.323548s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-01T22:18:24.019764701 0.618436s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-01T22:18:24.156018040 0.754687s info: Automatically using cache size of 203 MB
+2015-05-01T22:18:24.250354954 0.849026s notice: Listening for intracluster connections on port 29015
+2015-05-01T22:18:24.268987005 0.867656s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-01T22:18:24.269428433 0.868095s notice: Listening for client driver connections on port 28015
+2015-05-01T22:18:24.269940839 0.868610s notice: Listening for administrative HTTP connections on port 8080
+2015-05-01T22:18:24.365789693 0.964458s notice: Listening on addresses: 127.0.0.1, 172.17.0.59, ::1, fe80::42:acff:fe11:3b%120
+2015-05-01T22:18:24.365801084 0.964469s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-05-01T22:18:24.491721633 1.090390s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/08ce03be-5472-49de-86ad-f2a6b6a81449" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-01T22:18:24.492033235 1.090701s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/abd42f2c-b9bc-47f5-bc96-59e88441f1cb" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.041317478 19891.639986s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_974ac2eb-b0e0-4532-a6f8-085454b79f33.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.041353618 19891.640021s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_61eb4b11-9fe2-4d2b-82c0-b100f1904495.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.192475685 19891.791144s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_974ac2eb-b0e0-4532-a6f8-085454b79f33.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.201953666 19891.800622s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_12bc6961-f2fc-41ff-98f1-c481bf53a7de.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.242923013 19891.841592s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_a64e9f78-4031-4cb7-b90a-cae7ed842ab8.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.251709269 19891.850377s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_ce030732-a845-4a9c-8542-1a79985fdc98.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.251805697 19891.850474s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_60d7e592-5d07-4bf8-b9b8-34e8e4b30dce.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.251988237 19891.850656s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_c3f8c276-9eec-4da0-95c0-c7592c3f2cb3.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.252170131 19891.850838s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_6d9f3f5a-1dd7-42fa-a047-ac79240e568c.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.542395473 19892.141063s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_c3f8c276-9eec-4da0-95c0-c7592c3f2cb3.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.566327655 19892.164996s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_12bc6961-f2fc-41ff-98f1-c481bf53a7de.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.568132371 19892.166801s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_60d7e592-5d07-4bf8-b9b8-34e8e4b30dce.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.584691805 19892.183522s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_6d9f3f5a-1dd7-42fa-a047-ac79240e568c.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.678667685 19892.277336s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_ce030732-a845-4a9c-8542-1a79985fdc98.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.679034358 19892.277702s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_61eb4b11-9fe2-4d2b-82c0-b100f1904495.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:49:55.680556901 19892.279225s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_a64e9f78-4031-4cb7-b90a-cae7ed842ab8.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:28.917517604 19925.516186s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_dfe2a0aa-602e-4d04-9e72-05704ccce478.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:28.919053466 19925.517721s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_926c6082-8d91-41c5-b091-b56f1e1a18c3.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:28.919227057 19925.517895s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_9c546620-4832-43b8-aab3-aa036a26559d.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:28.919329913 19925.517998s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_a2bab7b0-c42e-45f4-8d97-dba9aa425394.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:28.919338448 19925.518006s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_dd274a2c-9382-4a88-9474-52f05104f129.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:28.920312572 19925.518981s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_3b19d56e-ed8e-48ef-9b5f-aed6be0039c5.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:28.920323721 19925.518992s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_81fc4515-f8c7-45c0-8146-7d2b54b82ebc.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:28.943037751 19925.541706s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_eafeaad6-cca2-4eed-be94-7ea98efb0252.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:28.943987666 19925.542656s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_926c6082-8d91-41c5-b091-b56f1e1a18c3.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:28.963800347 19925.562469s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_dfe2a0aa-602e-4d04-9e72-05704ccce478.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:28.973201030 19925.571869s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_9c546620-4832-43b8-aab3-aa036a26559d.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:29.078630242 19925.677299s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_dd274a2c-9382-4a88-9474-52f05104f129.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:29.407560692 19926.006308s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_a2bab7b0-c42e-45f4-8d97-dba9aa425394.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:29.417039224 19926.015704s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_81fc4515-f8c7-45c0-8146-7d2b54b82ebc.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:29.417039936 19926.015704s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_3b19d56e-ed8e-48ef-9b5f-aed6be0039c5.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-02T03:50:29.423651463 19926.022320s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_eafeaad6-cca2-4eed-be94-7ea98efb0252.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:25:05.234901467 0.327240s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-05-03T18:25:05.370457314 0.462795s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-05-03T18:25:05.520163353 0.612531s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-05-03T18:25:05.522132351 0.614470s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-05-03T18:25:05.584730270 0.677069s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:25:06.188665780 1.281081s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:25:06.667498371 1.759836s info: Automatically using cache size of 387 MB
+2015-05-03T18:25:06.923112754 2.015451s notice: Listening for intracluster connections on port 29015
+2015-05-03T18:25:07.040401265 2.132739s notice: Listening for client driver connections on port 28015
+2015-05-03T18:25:07.073155784 2.165494s notice: Listening for administrative HTTP connections on port 8080
+2015-05-03T18:25:07.075583910 2.167922s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:25:07.202010955 2.294350s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/08ce03be-5472-49de-86ad-f2a6b6a81449" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:25:07.252736487 2.345291s notice: Listening on addresses: 127.0.0.1, 172.17.0.1, ::1, fe80::42:acff:fe11:1%4
+2015-05-03T18:25:07.252984255 2.345321s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-05-03T18:25:07.322061864 2.414516s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/abd42f2c-b9bc-47f5-bc96-59e88441f1cb" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:28:38.170609694 213.262947s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-05-03T18:28:38.290181939 213.382516s notice: Shutting down client connections...
+2015-05-03T18:28:38.290181966 213.382516s notice: All client connections closed.
+2015-05-03T18:28:38.290181972 213.382516s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-03T18:28:38.390222037 213.482560s notice: Storage engine shut down.
+2015-05-03T18:30:23.889517359 0.166423s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-05-03T18:30:23.980669054 0.257643s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-05-03T18:30:24.123738342 0.400672s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-05-03T18:30:24.137974139 0.414892s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-05-03T18:30:24.568762412 0.845668s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:30:25.038475397 1.315381s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:30:25.273001850 1.549907s info: Automatically using cache size of 351 MB
+2015-05-03T18:30:25.411821503 1.688727s notice: Listening for intracluster connections on port 29015
+2015-05-03T18:30:25.479015630 1.755920s notice: Listening for client driver connections on port 28015
+2015-05-03T18:30:25.489268063 1.766174s notice: Listening for administrative HTTP connections on port 8080
+2015-05-03T18:30:25.490192056 1.767097s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:30:25.595961360 1.872867s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/08ce03be-5472-49de-86ad-f2a6b6a81449" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:30:25.597378846 1.874284s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/abd42f2c-b9bc-47f5-bc96-59e88441f1cb" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:30:25.606964903 1.883869s notice: Listening on addresses: 127.0.0.1, 172.17.0.5, ::1, fe80::42:acff:fe11:5%12
+2015-05-03T18:30:25.606974150 1.883878s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-05-03T18:34:22.526405643 238.803311s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-05-03T18:34:22.537011034 238.813916s notice: Shutting down client connections...
+2015-05-03T18:34:22.537414413 238.814319s notice: All client connections closed.
+2015-05-03T18:34:22.537424752 238.814329s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-03T18:34:22.654772016 238.931677s notice: Storage engine shut down.
+2015-05-03T18:35:50.636497321 0.171694s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-05-03T18:35:50.786125246 0.321316s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-05-03T18:35:50.951323278 0.486618s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-05-03T18:35:50.964614436 0.499869s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-05-03T18:35:51.250324146 0.785563s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:35:51.480112878 1.015854s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:35:51.703988982 1.239185s info: Automatically using cache size of 350 MB
+2015-05-03T18:35:51.853053288 1.388244s notice: Listening for intracluster connections on port 29015
+2015-05-03T18:35:51.904567670 1.439759s notice: Listening for client driver connections on port 28015
+2015-05-03T18:35:51.919680707 1.454872s notice: Listening for administrative HTTP connections on port 8080
+2015-05-03T18:35:51.919754847 1.454946s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:35:52.078719831 1.613911s notice: Listening on addresses: 127.0.0.1, 172.17.0.8, ::1, fe80::42:acff:fe11:8%18
+2015-05-03T18:35:52.078744307 1.613935s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-05-03T18:35:52.127286180 1.662484s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/08ce03be-5472-49de-86ad-f2a6b6a81449" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T18:35:52.138322666 1.673514s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/abd42f2c-b9bc-47f5-bc96-59e88441f1cb" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.295417660 5066.830609s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_482ea68d-43e9-4b18-a4d9-67da499e9f36.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.295604752 5066.830795s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_c8fe85fe-6540-4c3f-afd9-91dd754b87a2.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.317051161 5066.852242s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_4bdede34-6074-49a7-b0c0-1b850ed4f827.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.362599078 5066.897791s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_77d84a3c-acb8-4e9c-bd31-f9063d86ce16.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.370566438 5066.905757s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_5c831c91-d0ee-4593-8284-3c9daf9588ad.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.370575059 5066.905765s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_17a7475f-4af2-4f44-91e3-cbe14562289b.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.370585711 5066.905776s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_482ea68d-43e9-4b18-a4d9-67da499e9f36.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.372541830 5066.907733s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_920a988f-9ca2-4447-81ef-3e0123077112.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.372750386 5066.907941s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_0b1e08e0-e276-4727-9bf7-b2d666c24b13.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.404350140 5066.939541s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_c8fe85fe-6540-4c3f-afd9-91dd754b87a2.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.461808807 5066.997001s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_920a988f-9ca2-4447-81ef-3e0123077112.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.462493769 5066.997685s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_0b1e08e0-e276-4727-9bf7-b2d666c24b13.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.510910451 5067.046102s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_5c831c91-d0ee-4593-8284-3c9daf9588ad.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.511235664 5067.046426s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_4bdede34-6074-49a7-b0c0-1b850ed4f827.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.813351937 5067.348539s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_77d84a3c-acb8-4e9c-bd31-f9063d86ce16.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-03T20:00:17.814322350 5067.349513s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/tmp/post_construction_17a7475f-4af2-4f44-91e3-cbe14562289b.create" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-04T02:05:56.071787030 27005.606978s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-05-04T02:05:56.097603982 27005.632817s notice: Shutting down client connections...
+2015-05-04T02:05:56.098072611 27005.633282s notice: All client connections closed.
+2015-05-04T02:05:56.098119714 27005.633327s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-04T02:05:56.390834366 27005.926026s notice: Storage engine shut down.
+2015-05-04T02:05:56.399913854 27005.935105s error: Failed to shutdown worker process: 'failed to send job function to worker'.  Killing it.
+2015-05-04T16:19:27.705833489 0.260723s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-05-04T16:19:27.868941326 0.423830s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-05-04T16:19:27.983222594 0.538144s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-05-04T16:19:27.985078131 0.539967s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-05-04T16:19:28.043566043 0.598456s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-04T16:19:28.427891259 0.982782s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-04T16:19:28.623366066 1.178255s info: Automatically using cache size of 357 MB
+2015-05-04T16:19:28.714023747 1.268913s notice: Listening for intracluster connections on port 29015
+2015-05-04T16:19:28.818922342 1.373811s notice: Listening for client driver connections on port 28015
+2015-05-04T16:19:28.826103926 1.380997s notice: Listening for administrative HTTP connections on port 8080
+2015-05-04T16:19:28.828774158 1.383665s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-04T16:19:28.879962066 1.434851s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/08ce03be-5472-49de-86ad-f2a6b6a81449" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-04T16:19:28.880192221 1.435091s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/abd42f2c-b9bc-47f5-bc96-59e88441f1cb" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-04T16:19:28.916494618 1.471391s notice: Listening on addresses: 127.0.0.1, 172.17.0.2, ::1, fe80::42:acff:fe11:2%6
+2015-05-04T16:19:28.916520615 1.471416s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-05-04T16:25:41.902511703 374.457401s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-05-04T16:25:41.903107364 374.457996s notice: Shutting down client connections...
+2015-05-04T16:25:41.903941157 374.458830s notice: All client connections closed.
+2015-05-04T16:25:41.903951957 374.458840s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-04T16:25:42.058924867 374.613814s notice: Storage engine shut down.
+2015-05-04T16:25:44.135575083 0.151125s warn: Parent directory of log file (/usr/src/app/rethinkdb_data/log_file) could not be synced. (Invalid argument)
+2015-05-04T16:25:44.250832478 0.266473s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-05-04T16:25:44.285098991 0.300680s notice: Running on Linux 3.13.0-49-generic x86_64
+2015-05-04T16:25:44.285984704 0.301533s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-05-04T16:25:44.314204464 0.329754s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-04T16:25:44.456010174 0.471561s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/auth_metadata" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-04T16:25:44.533900463 0.549450s info: Automatically using cache size of 301 MB
+2015-05-04T16:25:44.631224356 0.646775s notice: Listening for intracluster connections on port 29015
+2015-05-04T16:25:44.645964018 0.661513s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/107d799a-6de7-443b-8f47-1ddc5b25db2d" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-04T16:25:44.649726252 0.665276s notice: Listening for client driver connections on port 28015
+2015-05-04T16:25:44.650356594 0.665906s notice: Listening for administrative HTTP connections on port 8080
+2015-05-04T16:25:44.734043826 0.749593s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/08ce03be-5472-49de-86ad-f2a6b6a81449" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-04T16:25:44.734966632 0.750516s warn: Failed to sync parent directory of "/usr/src/app/rethinkdb_data/abd42f2c-b9bc-47f5-bc96-59e88441f1cb" (errno: 22 - Invalid argument). You may encounter data loss in case of a system failure. (Is the file located on a filesystem that doesn't support directory sync? e.g. VirtualBox shared folders)
+2015-05-04T16:25:44.819353379 0.835118s notice: Listening on addresses: 127.0.0.1, 172.17.0.4, ::1, fe80::42:acff:fe11:4%10
+2015-05-04T16:25:44.820007397 0.835654s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-05-04T19:27:07.617099582 10883.632653s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-05-04T19:27:07.617817866 10883.633366s notice: Shutting down client connections...
+2015-05-04T19:27:07.617934167 10883.633483s notice: All client connections closed.
+2015-05-04T19:27:07.617944187 10883.633492s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-04T19:27:07.672612609 10883.688162s notice: Storage engine shut down.

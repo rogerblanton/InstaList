@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8" />
+      <meta name="format-detection" content="telephone=no" />
+      <meta name="msapplication-tap-highlight" content="no" />
+      <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+      <link rel="stylesheet" type="text/css" href="styles/index.css" />
+      <title>InstaList</title>
+
+      <!-- Vendor Scripts -->
+      <script src="vendor/webcomponents.js"></script>
+      <script src="vendor/polymer.js"></script>
+      <script src="vendor/socket.io-1.1.0.js"></script>
+      <script src="vendor/traceur-runtime.js"></script>
+      <script src="vendor/es6-module-loader.js"></script>
+      <script src="vendor/system.js"></script>
+      <script src="vendor/director.js"></script>
+      <script src="vendor/cordova.js"></script>
+      <script>
+        //app.initialize();
+        document.addEventListener( "deviceReady", checkConnection );
+        function checkConnection() {
+          var networkState = navigator.connection.type;
+
+          var states = {};
+          states[Connection.UNKNOWN]  = 'Unknown connection';
+          states[Connection.ETHERNET] = 'Ethernet connection';
+          states[Connection.WIFI]     = 'WiFi connection';
+          states[Connection.CELL_2G]  = 'Cell 2G connection';
+          states[Connection.CELL_3G]  = 'Cell 3G connection';
+          states[Connection.CELL_4G]  = 'Cell 4G connection';
+          states[Connection.CELL]     = 'Cell generic connection';
+          states[Connection.NONE]     = 'No network connection';
+
+          alert('Connection type: ' + states[networkState]);
+        }
+        checkConnection();
+      </script>
+      <script type="text/javascript" src="domain/base.js"></script>
+
+      <!-- UI WebComponents
+      <link rel="import" href="components/ui/ui-components.html" />
+      -->
+      <!-- InstaList WebComponents
+      <link rel="import" href="components/il/il-components.html" />
+      -->
+    </head>
+    <body unresolved>
+      <!--<div class="app">
+        <h1>InstaList</h1>
+        <div id="deviceready" class="blink">
+            <p class="event listening">Connecting to Device</p>
+            <p class="event received">Device is Working</p>
+        </div>
+      </div>
+      -->
+      <div class="browse">
+        <div class="item hidden">
+          <img src="{{postingImageUrl}}" />
+          <div class="content">{{description}}</div>
+          <div class="tags">{{postingTags}}</div>
+        </div>
+      </div>
+    </body>
+</html>
