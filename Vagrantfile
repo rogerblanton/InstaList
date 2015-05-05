@@ -11,7 +11,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.boot_timeout = 500
 
-  config.vm.synced_folder "./", "/home/ubuntu/app"
+  config.vm.synced_folder "./", "/home/ubuntu/InstaList"
 
   # dumbby http server
   config.vm.network "forwarded_port", guest: 80, host: 8000
@@ -34,22 +34,22 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #config.vm.provision :shell, path: "provision.sh", privileged: false
 
   config.vm.provision :docker do |d|
-    d.build_image "/home/ubuntu/app/.koa",
+    d.build_image "/home/ubuntu/InstaList/.koa",
       args: "-t koa"
     d.run "koa",
-      args: "-t -v '/home/ubuntu/app:/usr/src/app' -p 80:8000"
-    d.build_image "/home/ubuntu/app/.rethinkdb",
+      args: "-t -v '/home/ubuntu/InstaList:/usr/src/app' -p 80:8000"
+    d.build_image "/home/ubuntu/InstaList/.rethinkdb",
       args: "-t rethinkdb"
     d.run "rethinkdb",
-      args: "-t -v '/home/ubuntu/app/:/usr/src/app' -p 8080:8080 -p 28015:28015 -p 29015:29015"
-    d.build_image "/home/ubuntu/app/.socket",
+      args: "-t -v '/home/ubuntu/InstaList/:/usr/src/app' -p 8080:8080 -p 28015:28015 -p 29015:29015"
+    d.build_image "/home/ubuntu/InstaList/.socket",
       args: "-t socket"
     d.run "socket",
-      args: "-t -v '/home/ubuntu/app:/usr/src/app' -p '8181:8181/tcp' -p '8181:8181/udp' --link rethinkdb:rethinkdb"
-    #d.build_image "/home/ubuntu/app/.gulp",
+      args: "-t -v '/home/ubuntu/InstaList:/usr/src/app' -p '8181:8181/tcp' -p '8181:8181/udp' --link rethinkdb:rethinkdb"
+    #d.build_image "/home/ubuntu/InstaList/.gulp",
     #  args: "-t gulp"
     #d.run "gulp",
-    #  args: "-t -v '/home/ubuntu/app:/usr/src/app' --link koa:koa"
+    #  args: "-t -v '/home/ubuntu/InstaList:/usr/src/app' --link koa:koa"
   end
 
   config.vm.provider :virtualbox do |vb|

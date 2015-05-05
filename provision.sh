@@ -30,7 +30,7 @@ sudo timedatectl set-timezone America/Los_Angeles
 # add some stuff to .profile
 #echo "" >> ~/.profile
 #echo "# Added during provision" >> ~/.profile
-#echo "source ~/app/helpers.sh" >> ~/.profile
+#echo "source ~/InstaList/helpers.sh" >> ~/.profile
 #source ~/.profile
 
 # Create app for prosperty

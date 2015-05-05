@@ -1,3 +1,4 @@
+# sudo docker run -t -v '/home/ubuntu/InstaList:/usr/src/app' -p 80:8000 --name rethinkdb rethinkdb
 FROM dockerfile/ubuntu
 
 RUN mkdir /usr/src/app

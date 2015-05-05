@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Save Some Paths
-IL_PROJECT_PATH="/home/ubuntu/app"
+IL_PROJECT_PATH="/home/ubuntu/InstaList"
 
 DISPLAY=:1.5
 
@@ -59,7 +59,7 @@ copy-element ()
   echo "variable name will be: $varname"
 
   # move dirs and copy ./.new/*
-  cd "$IL_PROJECT_PATH/app/www/components/"
+  cd "$IL_PROJECT_PATH/InstaList/www/components/"
   cp -r "./.new/" "./$1/$2/" && echo "copied sucessfuly"
 
   # move again and do magic on files
