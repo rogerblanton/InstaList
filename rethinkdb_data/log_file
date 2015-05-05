@@ -401,3 +401,47 @@
 2015-05-04T19:27:07.617934167 10883.633483s notice: All client connections closed.
 2015-05-04T19:27:07.617944187 10883.633492s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2015-05-04T19:27:07.672612609 10883.688162s notice: Storage engine shut down.
+2015-05-05T01:30:11.486421870 0.026824s notice: Recursively removing directory /usr/src/app/rethinkdb_data/tmp
+2015-05-05T01:30:11.494085389 0.034487s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-05-05T01:30:11.496486886 0.036889s notice: Running on Linux 3.13.0-29-generic x86_64
+2015-05-05T01:30:11.496676675 0.037078s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-05-05T01:30:11.525597313 0.065998s info: Automatically using cache size of 100 MB
+2015-05-05T01:30:11.526772993 0.067174s warn: Cache size does not leave much memory for server and query overhead (available memory: 765 MB).
+2015-05-05T01:30:11.526778928 0.067180s warn: Cache size is very low and may impact performance.
+2015-05-05T01:30:11.529635282 0.070036s notice: Listening for intracluster connections on port 29015
+2015-05-05T01:30:11.533619219 0.074020s notice: Listening for client driver connections on port 28015
+2015-05-05T01:30:11.533868019 0.074269s notice: Listening for administrative HTTP connections on port 8080
+2015-05-05T01:30:11.535789740 0.076191s notice: Listening on addresses: 127.0.0.1, 172.17.0.12, ::1, fe80::2c80:faff:fe80:1c41%24
+2015-05-05T01:30:11.535939858 0.076341s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-05-05T01:30:42.841256355 31.381657s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-05-05T01:30:42.841370126 31.381771s notice: Shutting down client connections...
+2015-05-05T01:30:42.841448623 31.381849s notice: All client connections closed.
+2015-05-05T01:30:42.841480895 31.381882s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-05T01:30:42.850715832 31.391117s notice: Storage engine shut down.
+2015-05-05T01:31:27.002640011 0.032630s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-05-05T01:31:27.033619994 0.063611s notice: Running on Linux 3.13.0-29-generic x86_64
+2015-05-05T01:31:27.033720647 0.063710s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-05-05T01:31:27.072427944 0.102418s info: Automatically using cache size of 100 MB
+2015-05-05T01:31:27.073582629 0.103572s warn: Cache size does not leave much memory for server and query overhead (available memory: 760 MB).
+2015-05-05T01:31:27.073641676 0.103631s warn: Cache size is very low and may impact performance.
+2015-05-05T01:31:27.075965423 0.105955s notice: Listening for intracluster connections on port 29015
+2015-05-05T01:31:27.081636972 0.111627s notice: Listening for client driver connections on port 28015
+2015-05-05T01:31:27.081763435 0.111753s notice: Listening for administrative HTTP connections on port 8080
+2015-05-05T01:31:27.087176536 0.117166s notice: Listening on addresses: 127.0.0.1, 172.17.0.14, ::1, fe80::e09d:94ff:fe5f:4dea%28
+2015-05-05T01:31:27.087248589 0.117238s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8
+2015-05-05T01:37:27.103748080 360.133738s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2015-05-05T01:37:27.103811687 360.133801s notice: Shutting down client connections...
+2015-05-05T01:37:27.103906959 360.133897s notice: All client connections closed.
+2015-05-05T01:37:27.103910633 360.133900s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-05-05T01:37:27.109397917 360.139388s notice: Storage engine shut down.
+2015-05-05T01:37:34.754628209 0.016223s notice: Running rethinkdb 2.0.1~0trusty (GCC 4.8.2)...
+2015-05-05T01:37:34.756766116 0.018362s notice: Running on Linux 3.13.0-29-generic x86_64
+2015-05-05T01:37:34.756854780 0.018449s notice: Loading data from directory /usr/src/app/rethinkdb_data
+2015-05-05T01:37:34.776327544 0.037922s info: Automatically using cache size of 100 MB
+2015-05-05T01:37:34.776630125 0.038225s warn: Cache size does not leave much memory for server and query overhead (available memory: 769 MB).
+2015-05-05T01:37:34.776635995 0.038231s warn: Cache size is very low and may impact performance.
+2015-05-05T01:37:34.778453791 0.040048s notice: Listening for intracluster connections on port 29015
+2015-05-05T01:37:34.782149916 0.043745s notice: Listening for client driver connections on port 28015
+2015-05-05T01:37:34.782333621 0.043928s notice: Listening for administrative HTTP connections on port 8080
+2015-05-05T01:37:34.785666052 0.047261s notice: Listening on addresses: 127.0.0.1, 172.17.0.16, ::1, fe80::9cd7:95ff:fe5e:9a9b%32
+2015-05-05T01:37:34.785768646 0.047363s notice: Server ready, "2d19e812ad44_7k9" 35e6dd62-acc0-4112-886a-d98ad36d6de8

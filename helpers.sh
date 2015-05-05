@@ -30,6 +30,10 @@ restart-gulp ()
   kill-gulp ; start-gulp
 }
 
+# setup container for socket and db;
+run-db-and-socket{
+  docker run -dt -v '/home/ubuntu/InstaList:/usr/src/app' -p 8080:8080 -p 28015:28015 -p 29015:29015 --name rethinkdb rethinkdb; docker run -dt -v /home/ubuntu/InstaList:/usr/src/app --name socket -p 81:8181/tcp -p 81:8181/udp --link rethinkdb:rethinkdb  socket;
+}
 # $1: namespace | < il | ui | poc >
 # $2: elem-name
 copy-element ()
