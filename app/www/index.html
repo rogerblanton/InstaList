@@ -39,12 +39,11 @@
       </script>
       <script type="text/javascript" src="domain/base.js"></script>
 
-      <!-- UI WebComponents
+      <!-- UI WebComponents -->
       <link rel="import" href="components/ui/ui-components.html" />
-      -->
-      <!-- InstaList WebComponents
+      <!-- InstaList WebComponents -->
       <link rel="import" href="components/il/il-components.html" />
-      -->
+
     </head>
     <body unresolved>
       <!--<div class="app">
@@ -56,11 +55,9 @@
       </div>
       -->
       <div class="browse">
-        <div class="item hidden">
-          <img src="{{postingImageUrl}}" />
-          <div class="content">{{description}}</div>
-          <div class="tags">{{postingTags}}</div>
-        </div>
+        <posting-preview>
+
+        </posting-preview>
       </div>
     </body>
 </html>

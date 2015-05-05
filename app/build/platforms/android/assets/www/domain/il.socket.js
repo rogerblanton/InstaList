@@ -7,13 +7,9 @@ System.register("il.socket", [], function($__export) {
     execute: function() {
       Socket = $__export("Socket", (function() {
         var Socket = function Socket() {
-          try{
-            this.connection = io('http://192.168.1.69:8181');
-            this.connection.emit('transact');
-            this.events();
-          } catch ( e ) {
-            alert ( e.message );
-          }
+          this.connection = io('http://52.24.106.53:8181');
+          this.connection.emit('transact');
+          this.events();
         };
         return ($traceurRuntime.createClass)(Socket, {
           refreshClient: function() {

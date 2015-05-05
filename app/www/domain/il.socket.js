@@ -1,6 +1,7 @@
 export class Socket {
   constructor(){
-    this.connection = io('http://192.168.1.69:8181');
+    this.connection = io( "http://52.24.106.53:8181" );
+    //this.connection = io( "http://192.168.1.69:8181" );
     this.events();
   }
   refreshClient() {
