@@ -1,13 +1,13 @@
 var
   config = {
     rethinkdb: {
-      host: "172.17.0.4",
+      host: "172.17.0.16",
       port: 28015,
       authKey: "",
       db: "InstaList"
     },
     socket:{
-      host:"192.168.1.69",
+      host:"52.24.106.53",
       port:8181
     }
   },
