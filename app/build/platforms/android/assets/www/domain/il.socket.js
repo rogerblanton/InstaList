@@ -39,9 +39,10 @@ System.register("il.socket", [], function($__export) {
             this.connection.on( "postings", function ( data ) {
               console.log( "Postings", JSON.parse( data ).fulfillmentValue );
               var arr = JSON.parse( data ).fulfillmentValue,
-                  html = document.querySelector( ".browse .item" ).innerHTML;
+                  template = document.querySelector( ".browse" ).innerHTML, html="";
 
               arr.forEach( function ( item, index ) {
+                html += template;
                 for( var prop in item ) {
                   var regEx = new RegExp( "{{" + prop + "}}" );
                   if( prop === "postingTags"){
@@ -54,7 +55,7 @@ System.register("il.socket", [], function($__export) {
                   html = html.replace( regEx, item[prop]);
                 }
               });
-              document.querySelector( ".browse .item" ).innerHTML = html;
+              document.querySelector( ".browse" ).innerHTML = html;
 
 	          });
 	          this.connection.on('currentModel', function(data) {
